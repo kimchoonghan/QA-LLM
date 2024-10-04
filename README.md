@@ -2,13 +2,13 @@
 Multiple-choice Exam Model
 This project is focused on answering multiple-choice questions, particularly in the medical domain, using advanced NLP techniques. The model is designed to handle datasets like MedMCQA and MMLU, providing detailed, step-by-step reasoning to arrive at the correct answers.
 
-Model Architecture
+# Model Architecture
 Our model is built on llama3-8b, selected for its balance between high accuracy and run-time efficiency. This architecture allows the model to handle complex medical questions while maintaining efficient performance.
 
-Training Data
+# Training Data
 The model was trained using the following datasets:
 
-Ultramedical Dataset: A comprehensive dataset covering various medical specialties.
+Ultramedical Dataset: A comprehensive dataset covering various medical specialties.\
 Dementia Dataset: A synthetic dataset generated using GPT-4, focusing on dementia-related cases. This dataset enhances the model's ability to understand and process neurological medical information.
 Prompt Template
 The model answers multiple-choice questions using the following template:
@@ -58,6 +58,7 @@ model_input = prompt.format(question=question, options=options)
 input_ids = tokenizer(model_input, return_tensors="pt").input_ids
 output = model.generate(input_ids)
 print(tokenizer.decode(output[0]))
+"""
 In this example, the model generates an answer based on a multiple-choice question about the most common cause of dementia. The output will include a detailed reasoning process followed by the final answer in the format: 'So, the answer is A.'
 
 Features
