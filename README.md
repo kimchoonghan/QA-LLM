@@ -6,7 +6,7 @@ This project is focused on answering multiple-choice questions, particularly in 
 Our model is built on llama3-8b, selected for its balance between high accuracy and run-time efficiency. This architecture allows the model to handle complex medical questions while maintaining efficient performance.
 
 
-#Meta Llama3 License
+# Meta Llama3 License
 Before starting QA_LLM, you are required to obtain a license from Meta for Llama3. You can apply for the license here: Llama3 License(https://www.llama.com/llama3/license/)
 
 # Training Data
