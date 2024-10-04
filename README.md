@@ -77,3 +77,8 @@ So, the answer is A.
 2. High performance: Leveraging llama3-8b, the model strikes a balance between accuracy and efficiency.
 3. Specialized medical knowledge: The model is trained on medical-specific datasets, enhancing its performance in answering medical questions.
 
+
+# License
+This project is licensed under the MIT License
+
+
