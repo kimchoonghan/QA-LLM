@@ -55,8 +55,8 @@ Answer the above question with format 'So, the answer is' after your explanation
 ### Response:
 """
 
-tokenizer = AutoTokenizer.from_pretrained("choonghan/QA_LLM/consolidated", use_fast=False)
-model = AutoModelForCausalLM.from_pretrained("choonghan/QA_LLM/consolidated")
+tokenizer = AutoTokenizer.from_pretrained("choonghan/QA_LLM", subfolder="consolidated", use_fast=False)
+model = AutoModelForCausalLM.from_pretrained("choonghan/QA_LLM", subfolder="consolidated")
 
 question = "What is the most common cause of dementia?"
 options = "A) Alzheimer's disease\nB) Parkinson's disease\nC) Vascular dementia\nD) Lewy body dementia"
