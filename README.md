@@ -8,7 +8,7 @@ Our model is built on llama3-8b, selected for its balance between high accuracy 
 # Training Data
 The model was trained using the following datasets:
 
-Ultramedical Dataset: A comprehensive dataset covering various medical specialties.\
+Ultramedical Dataset[Zhang et al., 2024](https://github.com/TsinghuaC3I/UltraMedical): A comprehensive dataset covering various medical specialties.\
 Dementia Dataset: A synthetic dataset generated using GPT-4, focusing on dementia-related cases. This dataset enhances the model's ability to understand and process neurological medical information.
 Prompt Template
 The model answers multiple-choice questions using the following template:
